@@ -10,8 +10,7 @@ if(M <= 0)
 Console.WriteLine($"Введите любые {M} чисел через Enter: ");
 for(int i = 0; i < M; i++)
 {
-    string s = Console.ReadLine();
-    double m = Convert.ToDouble(s);
+    double m = Convert.ToDouble(Console.ReadLine());
     if(m > 0)
     {
         count += 1;
